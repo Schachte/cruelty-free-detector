@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuffPuff</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-gray-200 h-screen flex flex-col items-center justify-center">
+    <div class="w-full max-w-md mx-auto">
+        <div class="w-full flex items-end">
+            <img src="./assets/logo.png" height="150" width="150" class="-mr-2">
+            <div class="flex flex-col">
+              <h1 class="text-3xl">Cruelty Free Detector</h1>
+              <h1 class="text-sm">Use AI to detect cruelty-free products</h1>
+            </div>
+          </div>
+          
+        <input id="search-box" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Type company or product to determine if cruelty free">
+        <button id="evaluate-button" class="w-full mt-5 bg-blue-500 hover:opacity-80 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+            Evaluate Product or Company
+        </button>
+        <div id="response-container" class="mt-5 p-5 rounded hidden"></div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
