@@ -11,4 +11,4 @@ This app is written in `Go`. To run, simple run `go mod tidy && go run main.go`
 
 This will start the server that interfaces with Chat GPT. You can launch the simple UI from just opening the `index.html` page in your browser. 
 
-_Note: Be sure to include your `OpenAI` API key in the `main.go` file so it can connect to the API server correctly.
+_Note: Be sure to include your `OpenAI` API key in the `main.go` file so it can connect to the API server correctly._
